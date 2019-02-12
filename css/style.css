@@ -1,0 +1,277 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+  height: 100%;
+  background-color: #EEEEEE;
+  }
+.geral {
+	text-align:relative;
+	margin-top: 80px;
+}
+.rodape{
+	left:0;
+	height:auto;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+.endereco-rodape{
+   padding:0px;
+    text-align:left;
+    margin-top:20px;
+    font-family: 'robotoregular';
+font-size:16px;
+color:black;
+}
+ 
+.mapa {
+	margin-top: 50px;
+		}
+.contato {
+    
+    padding: 0px;
+}
+
+.contato-direito {
+    padding-right: 0px;
+}
+
+.endereco2 {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-family: "Open Sans", sans-serif;
+}
+.form-contato {
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+}
+
+.contato-meio {
+    padding-left: 0px;
+}
+
+    .contato-meio input {
+        margin-top: 5px;
+    }
+
+.contato-direito {
+    margin-top: 5px;
+}
+
+.mensagem {
+    color: red;
+    text-align:right;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+    .mensagem span {
+        color: green;
+    }
+
+    .botao a {
+         font-size:14px;
+        background-color: white;
+        padding: 10px 20px;
+        text-transform: uppercase;
+					}
+
+
+.contato-meio input {
+    margin-bottom: 10px;
+    height:40px;
+}
+
+
+.contato-meio label {
+ font-size:13px;
+ color:#5B5B5B;
+font-family: "Open Sans", sans-serif;
+}
+
+.contato-direito label{
+ font-size:13px;
+ color:#5B5B5B;
+ font-weight:200;
+ font-family: "Open Sans", sans-serif;
+}
+.contato-direito textarea{
+}
+.container {
+  width: 100%;
+  height: auto;
+}	
+.tutorial {
+	width: 100%;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	left:0;
+	right:0;
+	z-index: 99999;
+}
+.tutorial .slider {
+  width: 100%;
+  height: 150px;
+  background-color: #F03861;
+}
+.tutorial .information {
+  width: 100%;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+.tutorial .information h1 {
+  color: #333;
+  font-size: 1.5rem;
+  padding: 0px 10px;
+  border-left: 3px solid #F03861;
+}
+.tutorial .information h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0px 10px;
+  border-left: 3px solid #F03861;
+}
+.tutorial .information p {
+  padding: 10px 0px;
+}
+.tutorial ul {
+  font-size: 0;
+  list-style-type: none;
+}
+.tutorial ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+}
+.tutorial ul li a {
+color: #333;
+ text-decoration: none;
+  }
+.tutorial ul li ul {
+  display: none;
+}
+.tutorial ul li:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+.tutorial ul li:hover ul {
+  display: block;
+  margin-top: 15px;
+  width: 200px;
+  left: 0;
+  position: absolute;
+}
+.tutorial ul li:hover ul li {
+  display: block;
+  background-color: #e7e7e7;
+}
+.tutorial ul li:hover ul li span {
+  float: right;
+  color: white;
+  background-color: #F03861;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: .8rem;
+  border-radius: 3px;
+}
+.tutorial ul li:hover ul li:hover {
+  background-color: #e0e0e0;
+}
+.tutorial ul li:hover ul li:hover span {
+  background-color: #ee204e;
+}
+.botao {
+	margin-top: 20px;
+    text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	padding: 8px 15px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ffffff);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		to(#ffffff));
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	border: 0px solid #000000;
+	-moz-box-shadow:
+		1px 1px 2px rgba(000,000,000,0.4),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	-webkit-box-shadow:
+		1px 1px 2px rgba(000,000,000,0.4),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	box-shadow:
+		1px 1px 2px rgba(000,000,000,0.4),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(255,255,255,0);
+}
+.botao:hover {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	padding: 8px 15px;
+	background: -moz-linear-gradient(
+		top,
+		#f2f2f2 0%,
+		#f2f2f2);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#f2f2f2),
+		to(#f2f2f2));
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	border: 0px solid #000000;
+	-moz-box-shadow:
+		1px 1px 2px rgba(000,000,000,0.4),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	-webkit-box-shadow:
+		1px 1px 2px rgba(000,000,000,0.4),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	box-shadow:
+		1px 1px 2px rgba(000,000,000,0.4),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(255,255,255,0);
+}
+#appearance-select{
+   -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+   -moz-appearance: none; /* Remove estilo padrão do FireFox */
+   appearance: none; /* Remove estilo padrão do FireFox*/
+   background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+   background-size: 35px;
+   background-position: 213px center;  /*Posição da imagem do background*/
+   width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+   height:35px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+   border:1px solid #ddd;
+   background-color: white;
+   font-family: "Open Sans", sans-serif;
+   padding: 8px 15px;
+}
